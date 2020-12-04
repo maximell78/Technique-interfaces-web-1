@@ -3,68 +3,67 @@
 /* Le 2020-11-14 */
 
 body {
-    width: 900px;
-    background: url(../img/fond.jpg) no-repeat center;
-    background-color: blueviolet;
-    
-    
+  width: 900px;
+  margin: auto;
+  background: url(../img/fond.jpg);
+  background-repeat: no-repeat;
+  background-color: blueviolet;
 }
 
 h1 {
-    font-size: 36px;
+  font-size: 36px;
 }
 
 h2 {
-    font-size: 24px;
+  font-size: 24px;
 }
 
-h1, h2 {
-    text-align: center;
-    
+h1,
+h2 {
+  color: aqua;
+  text-align: center;
 }
 
 p {
-    font-size: 14px;
-    text-align: justify;
+  font-size: 14px;
+  text-align: justify;
 }
 
 a:link {
-    color : blue;
-    text-decoration: none;
+  color: blue;
+  text-decoration: none;
 }
 
 a:visited {
-    color: cornflowerblue;
-    text-decoration: none;
+  color: cornflowerblue;
+  text-decoration: none;
 }
 
 a:hover {
-    text-decoration: underline; 
+  text-decoration: underline;
 }
 
 img {
-    width: 300px;
-    border-radius: 10%;
-    
+  width: 300px;
+  border-radius: 10%;
 }
 
 img:hover {
-    box-shadow: 10px 10px 10px rgb(36, 35, 35);
+  box-shadow: 10px 10px 10px rgb(36, 35, 35);
 }
 
 table {
-    border-collapse: collapse;
-    font-size: 25px;
-    color: rgb(9, 9, 182);
-    
+  border-collapse: collapse;
+  font-size: 25px;
+  color: rgb(9, 9, 182);
 }
 
 td {
-    font-size: 20px;
-    color: rgb(29, 82, 29);
+  font-size: 20px;
+  color: rgb(29, 82, 29);
 }
 
-td, th {
-    border: 2px solid black;  
+td,
+th {
+  border: 2px solid black;
 }
-
