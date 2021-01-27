@@ -1,0 +1,102 @@
+/*index.html*/
+/*Programmé par : Maxime Lacroix-Lemire*/
+/*Dernière Mise À  Jour : 2021/01/24*/
+
+.bleu{
+    background-color: blue;
+    height: 500px;
+    width: auto;
+}
+
+.bleuPale{
+    background-color: #33A8FF;
+    opacity: 0.5;    
+}
+
+.rouge{
+    background-color: red;
+    height: 500px;
+    width: auto;
+}
+
+.vert{
+    background-color: green;
+    height: 500px;
+    width: auto;
+}
+
+.jaune{
+    background-color: yellow;
+    height: 500px;
+    width: auto;
+}
+
+.gris{
+    background-color: grey;
+    height: 500px;
+    width: auto;
+}
+
+.orange{
+    background-color: orange;
+    height: auto;
+    width: auto;
+}
+
+.grosseur{
+    background-repeat: no-repeat;
+    height: 20%;
+    width: 20%;
+}
+
+.bg-bleuPale{
+    background-color: #9BD3FC !important;   
+}
+
+.close {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 2em;
+    height: 2em;
+  }
+
+.btn-space {
+    margin-right: 10px !important;
+}
+
+.btn-grosseur{
+    display: block !important;
+    margin: auto !important;
+}
+
+.btn-bordure{
+    border: none;
+    background-color: white;
+}
+
+.aGauche{
+    margin-left: 2% !important;
+}
+
+.enBas{
+    margin-top: 2% !important;
+}
+
+ul{
+    margin-bottom: 0 !important;
+}
+
+.card2{
+    padding-bottom: 2em !important;
+}
+
+.othercard {
+    background-color: #00ff00;
+  }
+
+body{
+    margin-top: 1em !important;
+    margin-left: 1em !important;
+    margin-right: 1em !important;
+}
