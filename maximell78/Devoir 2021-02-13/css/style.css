@@ -1,0 +1,25 @@
+/*style.css*/
+/*Programmé par : Maxime Lacroix-Lemire*/
+/*Dernière Mise À  Jour : 2021/01/24*/
+
+.bleuPale{
+    background-color: #9BD3FC;
+    height: 1000px;
+    margin: auto;
+}
+
+.rouge{
+    background-color: red;
+    height: 1000px;
+    margin: auto;
+}
+
+.vert{
+    background-color: green;
+    height: 1000px;
+    margin: auto;
+}
+
+#icon{
+    vertical-align: right;
+}
