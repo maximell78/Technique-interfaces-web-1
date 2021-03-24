@@ -1,0 +1,117 @@
+/*style.css*/
+/*Programmé par : Maxime Lacroix-Lemire*/
+/*Dernière Mise À  Jour : 2021/03/08*/
+
+.bleuPale{
+    background-color: #9BD3FC;
+    height: 500px;
+    margin: auto;
+}
+
+.bleu{
+    background-color: blue;
+    height: 500px;
+    margin: auto;
+}
+
+.rouge{
+    background-color: red;
+    height: 400px;
+    margin: auto;
+}
+
+.vert{
+    background-color: green;
+    height: 400px;
+    margin: auto;
+}
+
+.violet{
+    background-color: violet;
+    height: 400px;
+    margin: auto;
+}
+
+.jaune{
+    background-color: yellow;
+    opacity: 0.5;
+    padding: 15px;
+}
+
+.blanc{
+    background-color: white;
+    opacity: 0.5;
+    padding: 15px;
+}
+
+.bg1{
+    background-image: url(../image/zone1.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 15%;
+    height: 100%;
+}
+
+.bg2{
+    background-image: url(../image/zone3.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 15%;
+}
+
+.bg3{
+    background-image: url(../image/zone4.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 15%;
+}
+
+.bouton{
+    background-color: orangered;
+    color: white;
+    padding: 2%;
+    border: none;
+}
+
+.bouton2{
+    background-color: white;
+    color: black;
+    padding: 2%;
+    border: none;
+}
+
+#texte{
+    color: white;
+}
+
+li{
+    list-style-image: url(../image/crochet.svg);
+    
+}
+
+html,body { 
+    margin:0; height:100%;
+}
+
+.parallax {
+/* L’hauteur du Parallax */
+height: 100%;
+/* Création de l’effet */
+background-attachment: fixed;
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+}
+
+.parallax2 {
+    /* L’hauteur du Parallax */
+    height: 500px;
+    /* Création de l’effet */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    }

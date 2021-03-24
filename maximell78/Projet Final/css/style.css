@@ -1,0 +1,84 @@
+/*style.css*/
+/*Programmé par : Maxime Lacroix-Lemire*/
+/*Dernière Mise À  Jour : 2021/03/08*/
+
+/* Couleur test */
+.bleuPale{
+    background-color: #9BD3FC;
+    height: 400px;
+    margin: auto;
+}
+
+.bleu{
+    background-color: blue;
+    height: 400px;
+    margin: auto;
+}
+
+.rouge{
+    background-color: red;
+    height: 400px;
+    margin: auto;
+}
+
+.vert{
+    background-color: green;
+    height: 400px;
+    margin: auto;
+}
+
+.violet{
+    background-color: violet;
+    height: 400px;
+    margin: auto;
+}
+
+.jaune{
+    background-color: yellow;
+    opacity: 0.5;
+    padding: 15px;
+}
+
+.blanc{
+    background-color: white;
+    opacity: 0.5;
+    padding: 15px;
+}
+
+html,body {
+    height:100%;
+}
+
+/* CLASS */ 
+
+.parallax {
+/* L’hauteur du Parallax */
+height: 100%;
+/* Création de l’effet */
+background-attachment: fixed;
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+}
+
+.parallax2 {
+    /* L’hauteur du Parallax */
+    height: 500px;
+    /* Création de l’effet */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    }
+
+    
+
+/* ID */
+
+
+
+#logo{
+    max-width: 15%;
+    width: 100vh;
+    height: auto;
+}
