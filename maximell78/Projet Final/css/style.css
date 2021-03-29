@@ -40,25 +40,24 @@
 }
 
 .blanc{
-    background-color: white;
-    opacity: 0.5;
-    padding: 15px;
+    color: white;
 }
 
-html,body {
-    height:100%;
+.blue{
+    color: blue;
 }
 
 /* CLASS */ 
 
 .parallax {
-/* L’hauteur du Parallax */
-height: 100%;
-/* Création de l’effet */
-background-attachment: fixed;
-background-position: center;
-background-repeat: no-repeat;
-background-size: cover;
+    background-image: url(../media/Baniere5.png);
+    /* L’hauteur du Parallax */
+    height: 500px;
+    /* Création de l’effet */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .parallax2 {
@@ -71,14 +70,108 @@ background-size: cover;
     background-size: cover;
     }
 
-    
+.navbarbg{
+    background-color: rgba(0, 0, 0, 0.88);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.hr{
+    margin-bottom:30px;
+    margin-top:30px;
+    max-width: 50px;
+    border-width: 3px;
+    border-color: #f05f40;
+    }
+
+.textColor{
+    color: white;
+}
+
+.bgBlancs{
+    background-color: white;
+}
+
+.fa-facebook:hover{
+    color: white;
+}
+
+.bgBase{
+    background-image: url(../media/Baniere5.png);
+    padding: 18%;
+    background-size: cover;
+    background-repeat: no-repeat;    
+}
+
+.img-pod{
+    width: 50%;
+    height: auto;
+}
+
+.pt-12 {
+    padding-top: 12rem !important;
+  }
 
 /* ID */
 
-
-
 #logo{
-    max-width: 15%;
-    width: 100vh;
+    max-width: 10%;
     height: auto;
+}
+
+#inputEmail{
+    width: 25rem;
+}
+
+#critique{
+    background-image: url(../media/critiques.png);
+    padding: 15%;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: #272522;
+}
+
+
+/* VIDEO */
+
+.one {
+    width: 90%;
+    height: 30vw;
+    overflow: hidden;
+    margin-bottom: 40px;
+    position: relative;
+    
+}
+
+.video-background { 
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: -1;    
+}
+
+/* RÉSEAUX SOCIAUX */
+
+.fa-facebook{
+    color: #3b5998;
+    background-color: white;
+    border-radius: 100%;
+}
+
+.fa-instagram-square {
+    color: transparent;
+    background: -webkit-radial-gradient(30% 107%, circle, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+    background: -o-radial-gradient(30% 107%, circle, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+    background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+    background: -webkit-radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+    background-clip: text;
+    -webkit-background-clip: text;
+  }
+
+  .fa-youtube-square {
+    color: #bb0000;
+    background-color: white;
 }
