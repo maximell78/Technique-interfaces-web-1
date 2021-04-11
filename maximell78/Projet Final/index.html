@@ -1,6 +1,7 @@
 <!-- index.html -->
 <!-- Programmé par : Maxime Lacroix-Lemire -->
-<!-- Dernière Mise À  Jour :  2021/03/20 -->
+<!-- Dernière Mise À  Jour :  2021/04/10 -->
+
 <!DOCTYPE html>
 <html lang="fr-ca">
   <head>
@@ -26,7 +27,7 @@
             aria-expanded="false"
             aria-label="Toggle navigation"
           >
-            <span class="navbar-toggler-icon"></span>
+            <i class="fas fa-socks blanc"></i>
           </button>
           <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav">
@@ -40,11 +41,11 @@
               </li>
               <li class="nav-item">
                 <a class="nav-link text-warning" href="bieres.html"
-                  >Nos Dégustations Alcoolo</a
+                  >Nos Dégustations « Alcoolo »</a
                 >
               </li>
               <li class="nav-item">
-                <a class="nav-link text-danger" href="contact.html">Contact</a>
+                <a class="nav-link text-warning" href="contact.html">Contact</a>
               </li>
             </ul>
           </div>
@@ -55,32 +56,28 @@
     <section>      
         <div class="container-fluid">  
             <div class="row">  
-                <div class="col-12 bgBase">
-                   <!-- <video class="video-background" autoplay src="media/Générique de Débuts.mp4"></video> -->
-
-                </div>
+                <div class="col-12 bgBase"></div>
             </div>
         </div>
     </section>
-
     <!-- Zone 2 -->
-    <section>
+    <section class="parallax">
         <div class="container">
             <div class="row">
                 <div class="col-12">
-                    <h2 class="text-center pb-4 pt-4">PODCASTPASDBAS C'EST QUOI ???</h2>
+                    <h2 class="text-center pb-4 pt-4 blanc myFont">PODCASTPASDBAS, C'EST QUOI ???</h2>
                 </div>
             </div>
         </div>
         <div class="container-fluid">
             <div class="row h-100 justify-content-center align-items-center">
-                <div class="offset-2 col-4">                    
-                    <p>
-                        Podcast... pas d'bas, c'est une gang de chums qui se réunissent pour parler de sujets qui vous intéressent! Du cinéma aux jeux-vidéos en passant par les bières de microbrasseries! L'idée est de varier l'ambiance d'une édition à l'autre et, également, d'avoir des invités différents qui se spécialisent ou sont passionnés par un sujet en particulier! Une bande comique (et parfois légèrement folle) qui saura vous accrocher!
+                <div class="offset-lg-2 col-xs-12 col-lg-4">                    
+                    <p class="blanc">
+                        Podcast... pas d'bas, c'est une gang de chums qui se réunit pour parler de sujets qui vous intéressent! Du cinéma aux jeux-vidéos en passant par les bières de microbrasseries! L'idée est de varier l'ambiance d'une édition à l'autre et, également, d'avoir des invités différents qui se spécialisent ou sont passionnés par un sujet en particulier! Une bande comique (et parfois légèrement folle) qui saura vous accrocher!
                     </p>
                 </div>
-                <div class="offset-1 col-5">
-                    <img src="media/sujet.png" alt="test" class="img-pod ">
+                <div class="offset-md-1 col-md-5 col-12 text-center">
+                    <img src="media/sujet.png" alt="test" class="img-fluid img1">
                 </div>
             </div>
         </div>
@@ -91,7 +88,7 @@
         <div class="container-fluid navbarbg textColor pt-5 pb-5">
             <div class="row">
                 <div class="col-12">
-                    <h2 class="text-center pb-5"> CONNECTEZ-VOUS À NOUS </h2>
+                    <h2 class="text-center pb-5 myFont"> CONNECTEZ-VOUS À NOUS </h2>
                 </div>
             </div>
             <div class="container text-center">
@@ -120,18 +117,18 @@
     </section>
 
     <!-- Zone 4 -->
-    <section>
+    <section class="parallax2 pt-5">
         <div class="container-fluid">
             <div class="row">
                 <div class="col-12">
-                    <h2 class="text-center"> S'INSCRIRE À NOTRE INFOLETTRE </h2>
+                    <h2 class="text-center myFont blanc"> S'INSCRIRE À NOTRE INFOLETTRE </h2>
                 </div>
             </div>
             <div class="container">
                 <div class="row">
                     <div class="col-12">
-                        <p class="text-center">
-                            Inscrivez-vous pour en savoir plus sur nos vidéos et nos critiques.
+                        <p class="text-center blanc">
+                            <strong>Inscrivez-vous pour en savoir plus sur nos vidéos et nos critiques.</strong>
                         </p>
                     </div>
                 </div>
@@ -152,10 +149,10 @@
     <footer>
         <div class="container-fluid">
             <div class="row navbarbg">
-                <div class="offset-1 col-5">
-                    <p class="blanc">
+                <div class="col-12">
+                    <h6 class="blanc text-center">
                       Copyright © 2020 Podcast pas d'bas - Tous droits réservés.
-                    </p>
+                    </h6>
   
                 </div>
   
@@ -167,8 +164,5 @@
 </html>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 <script src="bootstrap/js/bootstrap.js"></script>
-<script
-  src="https://kit.fontawesome.com/68cd163438.js"
-  crossorigin="anonymous"
-></script>
+<script src="https://kit.fontawesome.com/68cd163438.js" crossorigin="anonymous"></script>
 <script src="javascript/java.js"></script>
